@@ -6,7 +6,7 @@
     <Skills/>
     <Experience/>
     <center>
-      Thank you for viewing. This resume is build in <i class="fab fa-vuejs"></i> and hosted on <i class="fab fa-github"></i> <a :href="githubUrl">{{ githubUrl }}</a>
+      Thank you for viewing. This resume is built in <i class="fab fa-vuejs"></i> and hosted on <i class="fab fa-github"></i> <a :href="githubUrl">{{ githubUrl }}</a>
     </center>
   </div>
 </template>
