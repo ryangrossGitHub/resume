@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       githubUrl: 'https://github.com/ryangrossGitHub/resume',
-      siteUrl: 'https://d1vav2tr76x9eu.cloudfront.net'
+      siteUrl: 'https://ryangross.ninja'
     }
   }
 }
