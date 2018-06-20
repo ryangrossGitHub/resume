@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="col-md-auto">
+      <div id="logo" @click="reload" class="col-md-auto">
         <h1>{{ name }}</h1>
         <h5>{{ descriptor }}<i class="fas fa-code"></i></h5>
       </div>
@@ -38,12 +38,20 @@ export default {
       email: 'ryan.gross.01@gmail.com',
       phoneNumber: '301-788-8032'
     }
+  },
+  methods: {
+    reload: function(){
+      location.reload();
+    }
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+#logo {
+  cursor: pointer;
+}
 h5 {
   font-weight: 900;
   padding-left: 25px;

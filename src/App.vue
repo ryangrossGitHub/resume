@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <span>View this digitally: <a id="url" :href="siteUrl">{{ siteUrl }}</a></span>
     <Header/>
     <Certs/>
     <Skills/>
@@ -27,8 +26,7 @@ export default {
   },
   data() {
     return {
-      githubUrl: 'https://github.com/ryangrossGitHub/resume',
-      siteUrl: 'https://ryangross.ninja'
+      githubUrl: 'https://github.com/ryangrossGitHub/resume'
     }
   }
 }
